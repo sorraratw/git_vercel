@@ -6,7 +6,7 @@ const getVideosFromBackend = async () => {
   loading = true
   //const res = await fetch('http://localhost:5000/videos')
   //https://git-vercel-eight.vercel.app/
-  const res = await fetch('https://git-vercel-git-main-sorrarats-projects.vercel.app/')
+  const res = await fetch('https://git-vercel-git-main-sorrarats-projects.vercel.app/videos')
   const data = await res.json()
   loading = false
   return data
